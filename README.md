@@ -1,29 +1,86 @@
-# 🚦 Bengaluru 3D Traffic Accident Risk Dashboard
+# 🚦 Bengaluru 3D Traffic Accident Risk Intelligence Dashboard
 
-This is an AI-powered web application that predicts accident severity in Bengaluru based on traffic and environmental conditions.
+🌐 **Live App:** https://bengaluru-3d-risk-dashboard-wraebvbapdee5wwmppvbzh.streamlit.app/ 
 
-The app also visualizes high-risk areas using 3D spatial mapping.
+An AI-powered spatial intelligence dashboard that predicts traffic accident severity in Bengaluru and visualizes urban risk hotspots in immersive 3D.
 
-## 🔮 Features
+---
 
-- Machine Learning accident severity prediction
-- Risk confidence score
-- AI-based explanation of risk factors
-- Interactive 3D map visualization
-- Deployed using Streamlit Cloud
+## 🔥 Why This Project Matters
 
-## 🧠 Technologies Used
+Urban traffic risk is influenced by time, weather, infrastructure, and vehicle type.  
+This dashboard combines **Machine Learning + Geospatial Visualization** to simulate how accident severity changes across key Bengaluru zones.
+
+It transforms raw conditions into:
+- 🎯 Predictive severity analysis
+- 📊 Confidence scoring
+- 🧠 Risk explanation insights
+- 🗺 Interactive 3D spatial risk mapping
+
+---
+
+## 🚀 Key Features
+
+✔ Machine Learning-based severity prediction  
+✔ Random Forest classification model  
+✔ Encoded categorical feature engineering  
+✔ Real-time confidence meter  
+✔ AI-driven risk explanation layer  
+✔ Interactive 3D extruded heatmap (PyDeck)  
+✔ Cinematic dashboard UI with animated risk feedback  
+✔ Fully deployed production app  
+
+---
+
+## 🧠 Machine Learning Pipeline
+
+**Input Features**
+- Area
+- Weather
+- Road Condition
+- Vehicle Type
+- Hour of Day
+
+**Processing**
+- Label Encoding for categorical variables
+- Random Forest Classifier (100 estimators)
+- Probability-based confidence scoring
+
+**Output**
+- Slight Injury
+- Grievous Injury
+- Fatal
+
+---
+
+## 🗺 3D Spatial Intelligence Layer
+
+The dashboard visualizes risk intensity using:
+
+- Extruded column layers
+- Dynamic color gradients (Green → Red)
+- Real-time elevation spikes based on user selection
+- Tilted 3D perspective for urban risk simulation
+
+This mimics real-world spatial risk concentration analysis used in smart city systems.
+
+---
+
+## 🛠 Tech Stack
 
 - Python
 - Streamlit
 - Scikit-learn
-- PyDeck
+- PyDeck (WebGL-based visualization)
 - Pandas & NumPy
-
-## 🚀 Live Application
-
-https://bengaluru-3d-risk-dashboard-wraebvbapdee5wwmppvbzh.streamlit.app/
+- Joblib (model persistence)
 
 ---
 
-Built by Jeevan
+## 📂 Project Structure
+ bengaluru-3d-risk-dashboard/
+    ├── app.py
+    ├── requirements.txt
+    ├── accident_model.pkl
+    ├── encoder_*.pkl
+    ├── bengaluru_accidents_synthetic.csv
