@@ -22,7 +22,7 @@ The app also visualizes high-risk areas using 3D spatial mapping.
 
 ## 🚀 Live Application
 
-
+https://bengaluru-3d-risk-dashboard-wraebvbapdee5wwmppvbzh.streamlit.app/
 
 ---
 
